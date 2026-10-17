@@ -2,3 +2,38 @@
        font-family: Arial, Helvetica, sans-serif;
        color: green;
    }
+   
+ .header {
+  background-color: #f7beef;
+  padding: 30px;
+  text-align: center;
+ }
+
+ #index-body {
+       background-color: rgb(110, 226, 187);
+       color: white;
+  }
+  
+  .flex-item {
+       background-color: rgb(116, 116, 245);
+       width: 1200px;
+       margin: 10px;
+       text-align: center;
+       
+       font-size: 20px;
+    display: flex ; 
+       flex-wrap: wrap;
+         color: rgb(37, 33, 33);
+  }
+      
+
+
+/* Create three equal columns that sits next to each other */
+.column {
+     background-color: rgb(116, 116, 245);
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; 
+}
