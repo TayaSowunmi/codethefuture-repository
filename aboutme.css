@@ -1,0 +1,36 @@
+.header {
+   background-color:#fbd2ee;
+  padding: 27px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+   
+ }
+ #Aboutme-body {
+       background-color: rgb(244, 247, 246);
+       color: rgb(0, 0, 0);
+       margin: 0;
+  }
+.sidenav {
+
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fbd2ee;
+  overflow-x: hidden;
+}
+
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: #bafbdc;
+  padding: 5px;
+  text-align: center;
+  font-size: 13px;
+}
