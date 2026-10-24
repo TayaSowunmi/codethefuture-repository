@@ -1,3 +1,3 @@
 # codethefuture-repository
 another course. 
-i hate this thing!
+another certificate for my collection!
