@@ -26,11 +26,12 @@
 .content {
   margin-left: 200px;
   padding-left: 20px;
+  
 }
 
 .footer {
   background-color: #bafbdc;
   padding: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
 }

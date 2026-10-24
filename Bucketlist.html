@@ -4,14 +4,68 @@
        <meta charset="utf-8">
        <title>Bucket List</title>
      </head>
+     <link rel="stylesheet" href="bucketlist.css" />
+
+     <body id="bucketlist-body">
+
      <body>
-        <h1>My Bucket List</h1>
+      <nav class="sidenav">
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    <a href="index.html">Home</a>
+    <br>
+    <a href="Aboutme.html">About Me</a>
+    <br>
+    <a href="Bucketlist.html">My Bucket List</a>
+    <br>
+    <a href="Rankingfoods.html">My Favourite Foods</a>
+   <br>
+       </nav>
+       <div class="header">
+       <h1>My Bucket List</h1> 
+        </div>
+      
+        <nav class="content">
         <ul>
           <li> Travel to Japan</li>
           <li> Go skydiving</li>
           <li> Learn to play the guitar</li>
           <li> read all the Harry Potter books</li>
+          <li> Go on a road trip across the country</li>
+          <li> Learn a new language</li>
+          <li> Run a marathon</li>
+          <li> Take a cooking class</li>
+          <li> Go on a hot air balloon ride</li>
+          <li> Visit all 7 continents</li>
         </ul>
-        
+
+        <p> Hey, i wonder if you have completed any of these items? feel free to let me know by checking the boxes down below;</p>
+
+        <form action="formsuccess.html" method="get">
+          <input type="checkbox" id="japan" name="japan" value="japan">
+          <label for="japan"> Travel to Japan</label><br>
+          <input type="checkbox" id="skydiving" name="skydiving" value="skydiving">
+          <label for="skydiving"> Go skydiving</label><br>
+          <input type="checkbox" id="guitar" name="guitar" value="guitar">
+          <label for="guitar"> Learn to play the guitar</label><br>
+          <input type="checkbox" id="harrypotter" name="harrypotter" value="harrypotter">
+          <label for="harrypotter"> Read all the Harry Potter books</label><br>
+          <input type="checkbox" id="roadtrip" name="roadtrip" value="roadtrip">
+          <label for="roadtrip"> Go on a road trip across the country</label><br>
+          <input type="checkbox" id="language" name="language" value="language">
+          <label for="language"> Learn a new language</label><br>
+          <input type="checkbox" id="marathon" name="marathon" value="marathon">
+          <label for="marathon"> Run a marathon</label><br>
+          <input type="checkbox" id="cookingclass" name="cookingclass" value="cookingclass">
+          <label for="cookingclass"> Take a cooking class</label><br>
+          <input type="checkbox" id="hotairballoon" name="hotairballoon" value="hotairballoon">
+          <label for="hotairballoon"> Go on a hot air balloon ride</label><br>
+          <input type="checkbox" id="continents" name="continents" value= "continents">
+          <label for= "continents"> Visit all 7 continents</label><br>
+          <input type="submit" value="Submit">
+        </nav>
+
+        <nav class="footer">
+          <p> I have more things but I i won't list them all</p>
+          </nav>
      </body>
    </html>
